@@ -12,7 +12,7 @@ PyTorch
 Clone the repository:
 
 ```git clone https://github.com/bhargav-ns/student-teacher-pos```
-\n
+<br>
 ```cd pos-tagger```
 
 ### Install the required packages:
