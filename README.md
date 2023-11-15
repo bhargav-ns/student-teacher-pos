@@ -2,19 +2,6 @@
 
 This project implements a Part-of-Speech (POS) Tagger in PyTorch using a teacher-student network approach enhanced with First-Order Logic (FOL) rules. It's designed to demonstrate how a neural network (student) can learn POS tagging effectively by mimicking a more complex model (teacher) and incorporating structured linguistic knowledge through FOL rules.
 
-## Project Structure
-
-pos-tagger/
-│
-├── models/                  # Neural network models
-├── data/                    # Data processing modules
-├── rules/                   # FOL rules for POS tagging
-├── training/                # Training and evaluation scripts
-├── utils/                   # Utility functions
-├── tests/                   # Unit tests
-├── config.py                # Configuration settings
-├── requirements.txt         # Project dependencies
-└── main.py                  # Main script to run the POS tagger
 
 ## Getting Started
 ### Prerequisites
