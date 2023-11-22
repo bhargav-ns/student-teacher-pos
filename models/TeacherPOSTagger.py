@@ -2,7 +2,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class TeacherPOSTagger(nn.Module):
-    def __init__(self, vocab_size, tagset_size, embedding_dim=64, hidden_dim=128):
+    def __init__(self, vocab_size, tagset_size, embedding_dim=256, hidden_dim=512):
         super(TeacherPOSTagger, self).__init__()
         self.embeddings = nn.Embedding(vocab_size, embedding_dim)
         self.lstm = nn.LSTM(embedding_dim, hidden_dim)

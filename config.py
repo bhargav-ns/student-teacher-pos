@@ -17,9 +17,9 @@ STUDENT_MODEL_PARAMS = {
 }
 
 # Training parameters
-NUM_EPOCHS = 300
+NUM_EPOCHS = 30
 LEARNING_RATE = 0.1
 
 # File paths for saving and loading models
-TEACHER_MODEL_PATH = 'models/teacher_model.pth'
-STUDENT_MODEL_PATH = 'models/student_model.pth'
+TEACHER_MODEL_PATH = './models/teacher_model.pth'
+STUDENT_MODEL_PATH = './models/student_model.pth'

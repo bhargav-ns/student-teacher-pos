@@ -14,15 +14,9 @@ def main():
     print("Training the teacher model...")
     train_teacher()
 
-    # Save the teacher model
-    utils.save_model(config.TEACHER_MODEL_PATH)
-
     # Train the student model
     print("Training the student model...")
     train_student()
-
-    # Save the student model
-    utils.save_model(config.STUDENT_MODEL_PATH)
 
     # Evaluate the student model
     print("Evaluating the student model...")
